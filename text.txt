@@ -1,0 +1,10 @@
+hi this is guide to learn tmux
+
+maybe you ask your self to why i need learn tmux
+tmux -> terminal multi plexer
+ok for use tmux you need to install tmax on your linux maybe its install defualt
+
+in Debian base linux -> sudo apt install tmux 
+in Redhat linux -> sudo yum install tmux
+ok for run tmax in your terminal the only think to do write tmux in your terminal -> tmux
+and after this you can see green bar on your bottom terminal
