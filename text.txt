@@ -7,4 +7,36 @@ ok for use tmux you need to install tmax on your linux maybe its install defualt
 in Debian base linux -> sudo apt install tmux 
 in Redhat linux -> sudo yum install tmux
 ok for run tmax in your terminal the only think to do write tmux in your terminal -> tmux
-and after this you can see green bar on your bottom terminal
+and after this you can see green bar on your bottom terminal 
+ok tmux command usually run after press Ctrl+b 
+Ctrl+b % -> its half screen vertical
+Ctrl+b " -> its half screen horizental
+Ctrl+b t -> its show you time 
+Ctrl+b arrowKey -> help you navigate between temux slice you can if you press arrowkey back to back you can change 2 or more slice
+Ctrl+b+arrowKey -> help you change slice size
+Ctrl+b z -> help you focus on 1 slise and when you press shortcut again show you all slices
+tmux every window or slise call pane but i perfer use slice 
+Ctrl+b c -> create a new tmux 
+you can switch between tmuxs with -> Ctrl+b number -> example -> Ctrl+b 0 -> Ctrl+b 1 
+Ctrl+b d -> detach tmux
+when you exit tmux you can type -> 
+tmux ls -> show your tmux list
+tmux att -> attach your tmux -> tmux att -t your_tmux_number
+tmux new -> create a new tmux with name -> tmux new -s Name -> example tmux new -s saleh
+
+
+Ctrl+b : -> after this shortcut you can write command
+: -> setw synchronize-panes on -> its help you to type in every tmux slice
+: -> setw synchronize-panes off -> off synchronize-panes
+
+!! two people can connect to 1 tmux and type live and two people att to same tmux
+
+Ctrl+b pageUp/pageDown -> scrolling tmux -> for quit press q 
+Ctrl+s -> in up shortcut mode you can search 
+
+
+
+
+
+
+
