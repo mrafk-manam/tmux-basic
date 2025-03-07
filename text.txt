@@ -19,6 +19,8 @@ tmux every window or slise call pane but i perfer use slice
 Ctrl+b c -> create a new tmux 
 you can switch between tmuxs with -> Ctrl+b number -> example -> Ctrl+b 0 -> Ctrl+b 1 
 Ctrl+b d -> detach tmux
+Ctrl+b s -> show screen list
+exit -> you can close tmux slices
 when you exit tmux you can type -> 
 tmux ls -> show your tmux list
 tmux att -> attach your tmux -> tmux att -t your_tmux_number
@@ -33,7 +35,9 @@ Ctrl+b : -> after this shortcut you can write command
 
 Ctrl+b pageUp/pageDown -> scrolling tmux -> for quit press q 
 Ctrl+s -> in up shortcut mode you can search 
+Ctrl+b ? -> shows every tmux commands
 
+you can intead of tmux use screen -> type in your terminal -> screen
 
 
 
